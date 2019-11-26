@@ -1,3 +1,9 @@
+hash = {key1: "value1", key2: "value2"}
+ 
+hash.each do |key, value|
+  puts "#{key}: #{value}"
+end
+
 birthday_kids = {
   "Timmy" => 9,
   "Sarah" => 6,
